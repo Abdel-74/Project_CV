@@ -50,3 +50,62 @@ address{
 .address{
     flex-basis: 200px;
 }
+
+/* body du CV */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience, .diploma, .skill{
+    background-color: white;
+    padding: 1px 0 20px 40px;
+
+}
+
+/*Ordonner les 2 colonnes*/
+.column-1 {
+    flex: 1;
+    min-width: 0;
+    padding-top: 0;
+    order: 2;
+    flex-basis: 30%;
+}
+
+.column-2 {
+    flex: 1;
+    min-width: 0;
+}
+
+
+.diploma h4, .skill h4, .experience h4{
+    display: flex;
+    background: linear-gradient(to right, #782221 2%, #dbc2a4 2% );
+    height: 30px;
+    align-items: center;
+    padding-left: 30px;
+    margin-right: 20px;
+    
+}
+
+.about h4, .language h4, .interest h4{
+    display: flex;
+    background-color: #dbc2a4;
+    height: 30px;
+    align-items: center;
+    padding-left: 30px;
+    margin-right: 35px;
+    
+}
+
+.about p, .language ul, .interest ul{
+    color: white;
+}
+
+.about p{
+    padding-left: 30px;
+    padding-right: 35px;
+    text-indent: 30px;
+    text-align: justify;
+}
