@@ -15,10 +15,11 @@ h1 h2 h3 h4 h5 {
 }
 
 div.container{
-    margin: auto;
+    margin:  -9px auto;
     width: 1160px;
     border-right: 1px solid;
     background-color: #782221;
+
 }
 
  /* en-tête du CV */
@@ -108,4 +109,26 @@ main {
     padding-right: 35px;
     text-indent: 30px;
     text-align: justify;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.update{
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer i{
+    padding: 20px;
+    color: azure;
+    font-size: 40px;
 }
